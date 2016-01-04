@@ -28,7 +28,7 @@ class ListIpNetworkUsage(cmd_base.ListCommand):
     list_columns = ['id', 'name', 'total_ips', 'used_ips',
                     'subnet_ip_allocations', 'ip_version', 'network_id',
                     'network_name']
-    paginations_support = True
+    pagination_support = True
     sorting_support = True
 
 class ShowIpUsage(neutronV20.ShowCommand):
